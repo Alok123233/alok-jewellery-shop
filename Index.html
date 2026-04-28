@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Alok Gold Jewellery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: black;
+    color: gold;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+    border-bottom: 1px solid gold;
+}
+
+/* Grid */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 15px;
+}
+
+/* Card */
+.card {
+    background: #111;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Image */
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+/* Zoom effect */
+.card img:hover {
+    transform: scale(1.2);
+}
+
+/* Text */
+.card h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+/* WhatsApp Button */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: green;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<header>💎 Alok Gold Jewellery</header>
+
+<div class="container">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e">
+<h3>Gold Ring - 1 Gram</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f">
+<h3>Gold Ring - 2 Gram</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1617038260897-41a1f14a3f3b">
+<h3>Gold Ring - 3 Gram</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1627295117428-2e5c6db9c4b4">
+<h3>Gold Ring - 5 Gram</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a">
+<h3>Gold Ring - 7 Gram</h3>
+</div>
+
+</div>
+
+<!-- WhatsApp -->
+<a class="whatsapp" href="https://wa.me/91XXXXXXXXXX">Chat</a>
+
+</body>
+</html>
